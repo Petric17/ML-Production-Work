@@ -1,0 +1,15 @@
+# Ignore python virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore PyTorch neural network frozen weights (they are too heavy!)
+*.pt
+models/
+
+# Ignore local system clutter
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
